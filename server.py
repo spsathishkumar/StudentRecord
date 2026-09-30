@@ -6,7 +6,8 @@ app = Flask(__name__)
 students = [
     {"name": "Alice", "age": 20, "id": 1, "mark": 85},
     {"name": "Bob", "age": 22, "id": 2, "mark": 90},
-    {"name": "Charlie", "age": 21, "id": 3, "mark": 78}
+    {"name": "Charlie", "age": 21, "id": 3, "mark": 78},
+    {"name": "David", "age": 26, "id": 4, "mark": 84}
 ]
 
 @app.route('/', methods=['GET'])
